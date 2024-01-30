@@ -9,6 +9,7 @@
     <script src="https://kit.fontawesome.com/c3d0edbf7e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/media.css">
 
 </head>
 
@@ -38,9 +39,11 @@
 
 
         <div id="button-container">
-            <button id="anterior" class="bi bi-skip-backward-fill"></button>
-            <button id="play-pause" class="bi bi-play-fill"></button>
-            <button id="proximo" class="bi bi-skip-forward-fill"></button>
+            <div class="btn-play">
+                <button id="anterior" class="bi bi-skip-backward-fill"></button>
+                <button id="play-pause" class="bi bi-play-fill"></button>
+                <button id="proximo" class="bi bi-skip-forward-fill"></button>
+            </div>
             <audio id="audio-capitulo" src="src/books/dom-casmurro/1.mp3" controls></audio>
 
         </div>

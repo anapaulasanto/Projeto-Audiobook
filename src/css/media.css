@@ -1,0 +1,42 @@
+@media only screen and (min-width: 370px) {
+
+    body,html,main {
+        overflow-x: hidden;
+    }
+    .btn-header #btn-explorar {
+        margin-left: 30px;
+    }
+
+    .btn-header #btn-biblioteca {
+        margin-right: 30px;
+    }
+    
+    .texto-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .texto-container p {
+        position: inherit;
+        margin-top: 10px;
+    }
+
+    #audio-capitulo {
+        display: flex;
+        
+    }
+
+    #track-info {
+        margin-top: 90px;
+    }
+
+    #button-container {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
