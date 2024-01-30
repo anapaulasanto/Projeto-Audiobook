@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audiobook</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://kit.fontawesome.com/c3d0edbf7e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+
+</head>
+
+<body>
+    <div class="btn-header">
+        <button id="back" class="fa-solid fa-circle-chevron-left"></button>
+        <button id="btn-explorar">Explorar</button>
+        <button id="btn-biblioteca">Biblioteca</button>
+        <button id="user" class="fa-solid fa-user"></button>
+    </div>
+
+    <div class="music-container">
+        <div class="texto-container">
+            <img src="src/images/dom-casmurro.jpeg" alt="Capa do livro Dom Casmurro">
+            <h1>Dom Casmurro</h1>
+            <p>
+                Machado de Assis <br>
+                1899 <br>
+                Romance, Ficção, Memórias, Realismo Literário <br>
+            </p>
+        </div>
+
+        <div id="track-info">
+            <div id="capitulo">Capitulo 1</div>
+            <div id="nome-autor">Machado de Assis</div>
+        </div>
+
+
+        <div id="button-container">
+            <button id="anterior" class="bi bi-skip-backward-fill"></button>
+            <button id="play-pause" class="bi bi-play-fill"></button>
+            <button id="proximo" class="bi bi-skip-forward-fill"></button>
+            <audio id="audio-capitulo" src="src/books/dom-casmurro/1.mp3" controls></audio>
+
+        </div>
+
+    </div>
+    <script src="src/js/script.js"></script>
+</body>
+
+</html>
