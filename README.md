@@ -1,5 +1,7 @@
-<h1 align="center">Projeto de um Audiobook</h1>
- <p align="center">Audiobook com interação Js </p>
+<h1 align="center">Audiobook</h1>
+  <h4 align="center"><a href="https://anapaulasanto.github.io/Projeto-Audiobook/">Clique para visitar o projeto</a></h4>
+<br><br>
+
 
  <div align="center">
  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
@@ -7,9 +9,9 @@
  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">
  </div>
  
- <div align="center">
-  <img alt="banner" title="banner" src="src/images/banner1.png">
-  <img alt="banner" title="banner" src="src/images/banner2.png">
+ <div align="center"><img alt="banner" title="banner" src="src/images/banner2.png">
+
+  > Aplicação de um audiobook com interações de avançar, voltar e pausar audio, utilizando JavaScript.
 
 </div>
   
