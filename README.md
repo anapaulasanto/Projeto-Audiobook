@@ -15,7 +15,8 @@
 
 </div>
   
-<h3>Autor</h3>
+<br>
+<h2> 💻 Autor</h2>
 
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/149811410?s=400&u=bb09c5d7f36aed097c3d8654b8d445ee587ed4b1&v=4" width="100px;" alt=""/>
  <br />
